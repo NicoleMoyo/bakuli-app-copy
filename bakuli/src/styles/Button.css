@@ -1,0 +1,97 @@
+.primary-btn {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 0.75em 1em;
+    color: #ffffff;
+    font-size: 18px;
+    font-weight: 600;
+    font-family: Manrope, sans-serif;
+    line-height: 28px;
+    white-space: nowrap;
+    border-width: 0px;
+    border-radius: 12px;
+    background-color: #4C8415;
+    cursor: pointer;
+    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.3), 0px 1px 3px 1px rgba(0, 0, 0, 0.15);
+    transition: 0.3s;
+    margin-top: 3em;
+    margin-left: 0;
+
+}
+
+.primary-btn:hover {
+    background-color: #65B01C;
+    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.3), 0px 2px 6px 2px rgba(0, 0, 0, 0.15);
+}
+
+.primary-btn:active {
+    background-color: #33580E;
+    box-shadow: none;
+}
+
+.primary-btn:disabled {
+    background-color: rgba(76, 132, 21, 0.5);
+    box-shadow: none;
+}
+
+.secondary-btn {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 0.75em 1em;
+    border: 1px solid #4C8415;
+    border-radius: 0.75em;
+    background-color: #ffffff;
+    font-family: 'Manrope', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 28px;
+    color: #4C8415;
+    cursor: pointer;
+    width: 100%;
+    margin-top: 3em;
+}
+
+.secondary-btn:hover {
+    background-color: #F0FBE5;
+    border: 1px solid #65B01C;
+}
+
+.secondary-btn:active {
+    background-color: #65B01C;
+    color: #ffffff;
+}
+
+.text-btn {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 0.75em 1em;
+    border-radius: 12px;
+    background-color: #ffffff;
+    font-family: 'Manrope', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 28px;
+    color: #4C8415;
+    cursor: pointer;
+    /* margin-top: 3em; */
+    border: none;
+    gap: 0.5em;
+    transition: 0.3s;
+}
+
+.text-btn:hover {
+    background: #98E34F;
+}
+
+.text-btn:active {
+    background: #7FDC23;
+}
